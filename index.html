@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <link rel="stylesheet" href="joy.html">
+
+    <style>
+        #div {
+            border: 1px solid;
+            width: 99%;
+            padding: 49px 0px;
+        }
+
+
+
+        .contain {
+
+            text-align: justify;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 150px;
+            grid-template-columns: repeat(1, 1fr);
+
+
+        }
+
+        #btn {
+            background-color: linnen;
+            color: #0e3742;
+            border: none;
+        }
+
+        .con {
+            border: 1px solid;
+            border: none;
+
+            padding: 50px 50px;
+            border-radius: 15px;
+            background-color: tomato;
+        }
+
+        /* .ppp {
+            border: 1px solid;
+            width: 400px;
+        } */
+        @media screen and (max-width:576px) {
+            .contain {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:700px) {
+            .contain {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section id=" contan" class="contain">
+        <div class="con">
+            <section class="container">
+                <div aria-placeholder="Display" id="div">
+
+                </div>
+            </section>
+
+
+
+            <br>
+            <textarea name="" placeholder="Type" id="text" cols="30" rows="10" style="width: 240px;"></textarea>
+            <br>
+            <br>
+
+            <button id="btnnn">Click</button>
+            <!-- <button id="next">Next</button> -->
+
+            <button onclick="joy()" id="btn">Click Now</button>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <section class="ppp">
+        <p id="pp"></p>
+    </section>
+
+
+
+
+
+    <!--    @media screen and (max-width:576px) {}
+            .container-two {
+                flex-direction: column-reverse;
+            }
+
+            .container-two .split {
+                width: 100%;
+            }
+
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:700px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        } -->
+
+    <!-- 
+        for (var i = 1; i < 11; i += 1) {
+    console.log(i);
+} */
+/* 
+        // for (var i = 1; i < 11; i++) {
+        //     console.log(i);
+        // }
+        // for (var i = 0; i <= 10; i += 2) {
+        //     console.log(i);
+        // }
+
+        // document.getElementById('input').addEventListener('keyup', function (event) {
+        //     const text = event.target.value;
+        //     const deletebutton = document.getElementById('delete');
+        //     if (text === 'delete') {
+        //         deletebutton.removeAttribute('disabled');
+        //         deletebutton.style.backgroundColor = 'red';
+
+
+        //     }
+        //     else {
+
+        //         deletebutton.setAttribute('disabled', true);
+        //         deletebutton.style.backgroundColor = '';
+        //     }
+
+
+        // })
+
+
+
+
+        // document.getElementById('text').addEventListener('keyup', function (event) {
+        //     const txt = document.getElementById('text')
+        //     const value = txt.value
+        //     const text = event.target.value
+        //     const btn = document.getElementById('btn')
+
+
+
+
+
+
+        //     if (text === 'joy') {
+        //         btn.removeAttribute('disabled')
+        //     }
+
+        //     else {
+        //         btn.style.color = 'none'
+        //         btn.setAttribute('disabled', true)
+        //     }
+        // })
+
+
+
+
+
+
+
+
+
+
+        // document.getElementById('btn').addEventListener('click', function () {
+        //     const div = document.getElementById('div')
+        //     const inner = div.innerText
+        //     const joy = 'Tor Kam Hoiya gese tui eber side ja....'
+        //     div.innerText = joy
+
+
+        // })
+        // document.getElementById('next').addEventListener('click', function () {
+        //     location.href = 'joy.html'
+
+
+
+
+        // })
+     -->
+
+    <script src="writing.js"></script>
+
+</body>
+
+</html>
